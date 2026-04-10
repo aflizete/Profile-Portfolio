@@ -16,6 +16,40 @@ body {
   margin: auto;
   padding: 40px 20px;
 }
+.menu {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 250px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin: 10px 0;
+}
+
+.menu-item span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
 .cta {
   text-align: center;
   margin: 40px 0;
@@ -123,6 +157,27 @@ p {
     <span>¥1,000</span>
     
   </div>
+  <section class="menu">
+  <h2>Menu</h2>
+
+  <div class="menu-list">
+
+    <div class="menu-item">
+      <img src="coffee.jpg" alt="カフェラテ">
+      <h3>カフェラテ</h3>
+      <p>やさしい甘さで人気No.1</p>
+      <span>¥500</span>
+    </div>
+
+    <div class="menu-item">
+      <img src="cake.jpg" alt="チーズケーキ">
+      <h3>チーズケーキ</h3>
+      <p>手作りの濃厚な味わい</p>
+      <span>¥600</span>
+    </div>
+
+  </div>
+</section>
   <img src="https://raw.githubusercontent.com/aflizete/Profile-Portfolio/refs/heads/main/yuucafe_image.jpg" alt="cafe">
   <div class="cta">
   <a href="#reservation" class="cta-button">席を予約する</a>
