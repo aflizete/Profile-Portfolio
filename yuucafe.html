@@ -53,16 +53,22 @@
 } 
 
 .menu-item {
- display: flex;
- justify-content: space-between;
- flex: 1 1 calc(50% - 15px);
- border-bottom: 1px solid #ddd;
- max-width: 220px;
- background: #fff;
- padding: 15px;
- border-radius: 10px;
- margin-bottom: 5px;
- box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex: 1 1 220px;
+  max-width: 220px;
+
+  padding: 15px;
+  margin-bottom: 10px;
+
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
 }
  
 @media (max-width: 500px) {
